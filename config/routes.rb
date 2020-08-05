@@ -6,6 +6,6 @@ end
 
 Rails.application.routes.draw do
 
-  get "/", to: "messages#index"
+  get "/index", to: "messages#index"
 
 end
